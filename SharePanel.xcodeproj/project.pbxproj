@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD17A8C720173E3300376661 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD17A8C620173E3300376661 /* AppDelegate.m */; };
+		FD17A8CA20173E3400376661 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD17A8C920173E3400376661 /* ViewController.m */; };
+		FD17A8CD20173E3400376661 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD17A8CB20173E3400376661 /* Main.storyboard */; };
+		FD17A8CF20173E3400376661 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD17A8CE20173E3400376661 /* Assets.xcassets */; };
+		FD17A8D220173E3500376661 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD17A8D020173E3500376661 /* LaunchScreen.storyboard */; };
+		FD17A8D520173E3500376661 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD17A8D420173E3500376661 /* main.m */; };
+		FD17A8E420173E7500376661 /* DXShareButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FD17A8DD20173E7400376661 /* DXShareButton.m */; };
+		FD17A8E520173E7500376661 /* DXShareModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FD17A8DF20173E7400376661 /* DXShareModel.m */; };
+		FD17A8E620173E7500376661 /* DXSharePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = FD17A8E120173E7400376661 /* DXSharePlatform.m */; };
+		FD17A8E720173E7500376661 /* DXShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD17A8E320173E7400376661 /* DXShareView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FD17A8C220173E3200376661 /* SharePanel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SharePanel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD17A8C520173E3300376661 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FD17A8C620173E3300376661 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FD17A8C820173E3400376661 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FD17A8C920173E3400376661 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FD17A8CC20173E3400376661 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD17A8CE20173E3400376661 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD17A8D120173E3500376661 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD17A8D320173E3500376661 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD17A8D420173E3500376661 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FD17A8DC20173E7400376661 /* DXShareButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXShareButton.h; sourceTree = "<group>"; };
+		FD17A8DD20173E7400376661 /* DXShareButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXShareButton.m; sourceTree = "<group>"; };
+		FD17A8DE20173E7400376661 /* DXShareModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXShareModel.h; sourceTree = "<group>"; };
+		FD17A8DF20173E7400376661 /* DXShareModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXShareModel.m; sourceTree = "<group>"; };
+		FD17A8E020173E7400376661 /* DXSharePlatform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXSharePlatform.h; sourceTree = "<group>"; };
+		FD17A8E120173E7400376661 /* DXSharePlatform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXSharePlatform.m; sourceTree = "<group>"; };
+		FD17A8E220173E7400376661 /* DXShareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXShareView.h; sourceTree = "<group>"; };
+		FD17A8E320173E7400376661 /* DXShareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXShareView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD17A8BF20173E3200376661 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD17A8B920173E3200376661 = {
+			isa = PBXGroup;
+			children = (
+				FD17A8C420173E3200376661 /* SharePanel */,
+				FD17A8C320173E3200376661 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD17A8C320173E3200376661 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD17A8C220173E3200376661 /* SharePanel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD17A8C420173E3200376661 /* SharePanel */ = {
+			isa = PBXGroup;
+			children = (
+				FD17A8DB20173E7400376661 /* DXShareView */,
+				FD17A8C520173E3300376661 /* AppDelegate.h */,
+				FD17A8C620173E3300376661 /* AppDelegate.m */,
+				FD17A8C820173E3400376661 /* ViewController.h */,
+				FD17A8C920173E3400376661 /* ViewController.m */,
+				FD17A8CB20173E3400376661 /* Main.storyboard */,
+				FD17A8CE20173E3400376661 /* Assets.xcassets */,
+				FD17A8D020173E3500376661 /* LaunchScreen.storyboard */,
+				FD17A8D320173E3500376661 /* Info.plist */,
+				FD17A8D420173E3500376661 /* main.m */,
+			);
+			path = SharePanel;
+			sourceTree = "<group>";
+		};
+		FD17A8DB20173E7400376661 /* DXShareView */ = {
+			isa = PBXGroup;
+			children = (
+				FD17A8DC20173E7400376661 /* DXShareButton.h */,
+				FD17A8DD20173E7400376661 /* DXShareButton.m */,
+				FD17A8DE20173E7400376661 /* DXShareModel.h */,
+				FD17A8DF20173E7400376661 /* DXShareModel.m */,
+				FD17A8E020173E7400376661 /* DXSharePlatform.h */,
+				FD17A8E120173E7400376661 /* DXSharePlatform.m */,
+				FD17A8E220173E7400376661 /* DXShareView.h */,
+				FD17A8E320173E7400376661 /* DXShareView.m */,
+			);
+			path = DXShareView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD17A8C120173E3200376661 /* SharePanel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD17A8D820173E3500376661 /* Build configuration list for PBXNativeTarget "SharePanel" */;
+			buildPhases = (
+				FD17A8BE20173E3200376661 /* Sources */,
+				FD17A8BF20173E3200376661 /* Frameworks */,
+				FD17A8C020173E3200376661 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SharePanel;
+			productName = SharePanel;
+			productReference = FD17A8C220173E3200376661 /* SharePanel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD17A8BA20173E3200376661 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = dyy;
+				TargetAttributes = {
+					FD17A8C120173E3200376661 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = FD17A8BD20173E3200376661 /* Build configuration list for PBXProject "SharePanel" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD17A8B920173E3200376661;
+			productRefGroup = FD17A8C320173E3200376661 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD17A8C120173E3200376661 /* SharePanel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD17A8C020173E3200376661 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD17A8D220173E3500376661 /* LaunchScreen.storyboard in Resources */,
+				FD17A8CF20173E3400376661 /* Assets.xcassets in Resources */,
+				FD17A8CD20173E3400376661 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD17A8BE20173E3200376661 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD17A8CA20173E3400376661 /* ViewController.m in Sources */,
+				FD17A8E520173E7500376661 /* DXShareModel.m in Sources */,
+				FD17A8E420173E7500376661 /* DXShareButton.m in Sources */,
+				FD17A8D520173E3500376661 /* main.m in Sources */,
+				FD17A8E720173E7500376661 /* DXShareView.m in Sources */,
+				FD17A8E620173E7500376661 /* DXSharePlatform.m in Sources */,
+				FD17A8C720173E3300376661 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FD17A8CB20173E3400376661 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD17A8CC20173E3400376661 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD17A8D020173E3500376661 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD17A8D120173E3500376661 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD17A8D620173E3500376661 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FD17A8D720173E3500376661 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD17A8D920173E3500376661 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = SharePanel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dyy.SharePanel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD17A8DA20173E3500376661 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 7RXHQ9N89L;
+				INFOPLIST_FILE = SharePanel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dyy.SharePanel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "4b4ba4b9-26a9-44da-97f4-a5a64a1d4458";
+				PROVISIONING_PROFILE_SPECIFIER = Currency_Distribution;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD17A8BD20173E3200376661 /* Build configuration list for PBXProject "SharePanel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD17A8D620173E3500376661 /* Debug */,
+				FD17A8D720173E3500376661 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD17A8D820173E3500376661 /* Build configuration list for PBXNativeTarget "SharePanel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD17A8D920173E3500376661 /* Debug */,
+				FD17A8DA20173E3500376661 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD17A8BA20173E3200376661 /* Project object */;
+}
